@@ -14,7 +14,7 @@ const cleanTypes = async ({ dest = './src/declarations' }) => {
         
         await writeFile(indexPath, clean, 'utf-8');
 
-        resolve();
+        resolve(null);
     }));
 
     await Promise.all(promises);
