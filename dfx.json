@@ -1,0 +1,12 @@
+{
+	"canisters": {
+		"web": {
+			"frontend": {
+				"entrypoint": "web/build/index.html"
+			},
+			"source": ["web/build"],
+			"type": "assets"
+		}
+	},
+	"version": 1
+}

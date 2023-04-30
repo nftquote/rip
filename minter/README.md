@@ -1,2 +1,0 @@
-# rip
-Rest In Please 🙏
