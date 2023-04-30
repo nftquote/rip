@@ -3,17 +3,23 @@
 		"minter": {
 			"type": "rust",
 			"candid": "minter/minter.did",
-			"package": "minter"
+			"package": "minter",
+			"declarations": {
+				"output": "idl"
+			}
 		},
 		"web": {
 			"dependencies": [
 				"minter"
 			],
+			"type": "assets",
 			"frontend": {
 				"entrypoint": "web/build/index.html"
 			},
 			"source": ["web/build"],
-			"type": "assets"
+			"declarations": {
+				"output": "idl"
+			}
 		}
 	},
 	"version": 1

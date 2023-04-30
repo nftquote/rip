@@ -44,6 +44,9 @@ export default defineConfig((config: UserConfig): UserConfig => {
 				'DFX_NETWORK': gv.network,
 			},
 		},
+		resolve: {
+			dedupe: ["@dfinity/agent"],
+		},
 	};
 });
 
