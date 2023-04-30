@@ -1,6 +1,14 @@
 {
 	"canisters": {
+		"minter": {
+			"type": "rust",
+			"candid": "minter/minter.did",
+			"package": "minter"
+		},
 		"web": {
+			"dependencies": [
+				"minter"
+			],
 			"frontend": {
 				"entrypoint": "web/build/index.html"
 			},
