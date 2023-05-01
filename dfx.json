@@ -16,7 +16,9 @@
 			"frontend": {
 				"entrypoint": "web/build/index.html"
 			},
-			"source": ["web/build"],
+			"source": [
+				"web/build"
+			],
 			"declarations": {
 				"output": "idl"
 			}

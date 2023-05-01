@@ -4,9 +4,9 @@ Rest In Please 🙏
 ## Run on Local
 
 ```sh
-# 1. start local chain
-dfx start --background --clean --host 127.0.0.1:8000
+# start
+make up
 
-# 2. deploy canisters on local chain
-./dfx_deploy_local.sh
+# stop
+make down
 ```
